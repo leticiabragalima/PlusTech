@@ -166,12 +166,23 @@ body {
 
     .container{
         height: 70vh;
+        display: flex;
+        flex-direction: column;
     }
     
     .secundario {
         align-items: center;
-        margin: 0 1rem;
+        margin: auto;
         width: auto;
+    }
+
+    .secundario__imagem {
+        width: 50%;
+    }
+
+    .container__descricao {
+        width: 50%;
+        text-align: center;
     }
 
     .decricao__titulo {
