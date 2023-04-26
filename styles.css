@@ -176,20 +176,16 @@ body {
         align-items: center;
         margin: auto;
         width: auto;
-    }
-
-    .secundario__imagem {
-        width: 80%;
+        margin: 0 5rem;
     }
 
     .container__descricao {
-        width: 60%;
         text-align: center;
         order: 1;
     }
 
     .decricao__titulo {
-        font-size: 2.25rem;
+        font-size: 1.875rem;
     }
 
     .dispositivos__lista {
@@ -198,7 +194,9 @@ body {
     }
 
     .dispositivos__titulo {
-        margin: 1.875rem;
+        margin: auto;
+        width: auto;
+        margin: 0 5rem;
         font-size: 1.875rem;
     }
 
